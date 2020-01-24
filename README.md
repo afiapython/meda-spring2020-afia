@@ -2,5 +2,4 @@
 
 practicing git and git hub
 
-my name is afia
-i like coding
+my name is afia, san francisco california.
