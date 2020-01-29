@@ -1,36 +1,61 @@
-<!doctype html>
+    <!doctype html>
 
-<html lang="en">
-<head>
-  <meta charset="utf-8">
+    <html lang="en">
+    <head>
+    <meta charset="utf-8">
 
-  <title>CSS Practice Page</title>
-  
-  
-<!--Css Inline,Css Internal,CSS External.-->
-<!--CSS Internal code-->
-<style>
-    body {
-        background-color: cyan;
+    <title>CSS Practice Page</title>
+    
+    
+    <!--Css Inline,Css Internal,CSS External.-->
+    <!--CSS Internal code-->
+    <style>
+        body {
+            background-color: cyan;
 
-    }
-    p {
-        color: red;
-        font-size: 50px;
+        }
 
-    }
-    h1 {
-        color: blue;
-        font-size: 100px;
-    }
+        p {
+            color: red;
+            font-size: 50px;
+            font-family: "Arial", "Helvetica", "Trebuchet";
+            border-width: 50px;
+            border-style: dashed;
+            border-color: fuchsia;
 
-</style>
+            /*comments*/
+        }
+
+        h1 {
+            color: blue;
+            font-size: 50px;
+            font-family: "Courier";
+            background-color: blueviolet;
+            /*The following two rules only apply to
+            block-level elements*/
+            /*Block-level elements will by default
+            take up the entire line,unless forced by
+            the width rule.*/
+            width: 400px;
+            height: 400px;
+        }
+        img {
+            height: 320px;
+            border-width: 30px;
+            border-color: darkmagenta;
+            border-style: dotted;
+
+           
+        }
+    </style>
 </head>
 
-<body>
-    <h1>Hello there!</h1>
-    <p>This is my webpage</p>
+    <body>
+        <h1>Hello there!</h1>
+        <p>This is my webpage</p>
+        <p>Good Job</p>
+        <img src="donuts.jpg" alt="pink delicious donuts on a white plate"/>
 
-  
-</body>
+    
+    </body>
 </html>
