@@ -8,13 +8,65 @@
   
 <!--style element should be in head-->
   <style>
+      #header h1  {
+          color: red;
+          
+      }
       #header {
           background-color: chartreuse;
           color: blue;
           padding: 40px;
 
       }
+      #header h1  {
+          color: darkgray;
 
+      }
+      #main {
+          background-color: coral;
+          color:cyan;
+          height: 400px;
+          border: solid 10px orange;
+          border-radius: 50px;
+          margin: 100px;
+          padding-left: 25px;
+          background-color: red;
+      }
+      #footer {
+          background-color: brown;
+          color: red;
+
+      }
+      #footer p {
+          color: yellow;
+      }
+      #footer{
+          background-color: green;
+
+      }
+      #footer h6{
+          background-color: cornsilk;
+      }
+      #footer div h6 {
+          background-color: cyan;
+      }
+      p {
+          color: skyblue;
+      }
+      
+     #food-list{
+         list-style-type: none;
+         width: 600px;
+
+    
+     }
+     #food-list li {
+         display: inline;
+         background-color: yellow;
+         margin: 10px auto;
+         padding: 10px;
+          
+     }
   </style>
 
 </head>
@@ -22,6 +74,7 @@
 <body>
     <!--HTML5 version is <header></header>-->
     <div id="header">
+        <p>This is the title of the header area.</p>
         <p>This area is my first div.</p>
         
     </div>
@@ -31,9 +84,21 @@
     </div>
     <!--HTML5 version is <footer></footer>-->
     <div id="footer">
-        <p>&copy; 2020 Afia</p>
+        <p>&copy; 2020 <span id="myname">Afia</span></p>
+        <h6>tiny</h6>
+        <div>
+            <h6>This is tiny!</h6>
+        </div>
+        <ul id="food-list">
+            <li>Sushi</li>
+            <li>Cat Food</li>
+            <li>Orange</li>
+            <li>Bread</li>
+            <li>Steak</li>
+            <li>Fries</li>
+        </ul>
 
     </div>
-
+    
 </body>
 </html>
