@@ -1,0 +1,23 @@
+A)My Choice of colors: Body: gray or black or white
+background color: gray or white
+link text: black or blue.
+
+ Step A: ABOUT ME
+   As a former COMPUTER student, I have gained a working knowledge of Python, JavaScript, Java. I am a Full Time Coding Learner living in  Bay Area. 
+I am passionate about both the user experience and site architecture that follow fundamentals of clean/well-separated code. 
+I believe in the model of: less code is more and constantly seeking opportunities to learn, and improve coding skills.
+
+I have Masters in Software Engineering from India.With a background in Computers ,I am looking to use the skills and experiences I have gained to work 
+as a full time developer, with the ability to learn self-efficiently.
+
+In my spare time, when I am not coding, I like to enjoy the activities being outdoors.
+
+
+CONTACT PAGE:
+PHONE NUMBER:
+lOCATION:
+EMAIL:
+COPYRIGHT © 2020 AFIA FIRDAUS
+github,linkedin,facebook,twitter,instagram
+
+PROJECTS PAGE:
