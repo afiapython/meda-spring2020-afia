@@ -1,8 +1,10 @@
-A)My Choice of colors: Body: gray or black or white
+A)My Choice of colors: Body: Black
 background color: gray or white
 link text: black or blue.
+Text:black
+Header: Black
 
- Step A: ABOUT ME
+Step A: ABOUT ME PAGE:
    As a former COMPUTER student, I have gained a working knowledge of Python, JavaScript, Java. I am a Full Time Coding Learner living in  Bay Area. 
 I am passionate about both the user experience and site architecture that follow fundamentals of clean/well-separated code. 
 I believe in the model of: less code is more and constantly seeking opportunities to learn, and improve coding skills.
@@ -13,11 +15,52 @@ as a full time developer, with the ability to learn self-efficiently.
 In my spare time, when I am not coding, I like to enjoy the activities being outdoors.
 
 
-CONTACT PAGE:
+RESUME
+
+Step B:PROJECTS PAGE:
+Project1
+
+Project2
+
+Project3
+project images
+
+Step C:CONTACT PAGE:
 PHONE NUMBER:
 lOCATION:
 EMAIL:
+contact images
 COPYRIGHT © 2020 AFIA FIRDAUS
 github,linkedin,facebook,twitter,instagram
 
-PROJECTS PAGE:
+Example Portfolios:(https://wpamelia.com/portfolio-websites/)
+
+1)Rafael Caferati
+
+https://caferati.me/
+
+I like the ideas.
+
+I don'tlike too much design.
+
+Header: Difficult to guess,shows top of the webpage
+Body: about me page
+Footer: Footer is there left side of webpage,social media icons vertical presentation.
+
+
+2)Ian lunn
+https://ianlunn.co.uk/
+I like the logo and layout.
+I did not like background look.
+Header: upper part of webpage,name,logo,menu options,detail view of projects.
+Body: Body covers at view portfolio.
+Footer: Footer is copyright and additional details.
+
+3).Timmy Mahony
+https://timmyomahony.com/
+I like simple design.
+I did not like pics.
+Header: top of the webpage,pic,name anf menu.
+Body: covers alot aboutme,projects.
+Footer: copy right and other details.
+
