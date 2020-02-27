@@ -49,7 +49,7 @@ var roundedDown = Math.floor(45.9);
 
 // Math.random() returns a value between 0 and .9infinity
 // We add a 1 so minimum is now 1, and we multiply 1000 so maximum is 1000.9
-var someNumber = ( Math.random() * 1000 ) + 1;
+var someNumber = (Math.random() * 1000) + 1;
 
 // We floor the random number so decimals are removed.
 var roundedRandomNumber = Math.floor(someNumber);
@@ -58,3 +58,20 @@ var roundedRandomNumber = Math.floor(someNumber);
 
 // Print random number.
 console.log(roundedRandomNumber);
+
+var variable1 = "10", variable2 = 100, variable3 = true;
+console.log(variable2);
+
+//calling before defining
+console.log(howareyou);
+var howareyou = "Hello";
+
+//you will get undefined
+
+var coolVariable = howAreYou = 100;
+
+
+
+console.log(coolVariable);
+
+variable1 = coolVariable;
