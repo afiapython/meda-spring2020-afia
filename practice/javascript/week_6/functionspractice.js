@@ -49,3 +49,12 @@ console.log(newNumber);
 var results = getNumber() / 50;
 
 console.log(results);
+
+function getName() {
+    var firstName = "Eduardo";
+
+    return firstName;
+
+}
+
+console.log(getName() + " is a person.");
