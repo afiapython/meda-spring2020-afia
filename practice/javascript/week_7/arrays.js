@@ -19,7 +19,7 @@ console.log(daysOfWeek[6]);
 daysOfWeek[6] = "funday";
 console.log(daysOfWeek[6]);
 
-daysOfWeek[12] = "suparday";
+daysOfWeek[12] = "superday";
 
 console.log(daysOfWeek);
 
