@@ -1,8 +1,0 @@
-while (true) {
-    console.log("hello");
-
-    //continue;
-    //break;
-    console.log("ended");
-}
-console.log("finished");

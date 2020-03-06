@@ -1,60 +1,68 @@
-//concatenation example
-
+// Concatenation example
 "a word" + "gabe";
-
 "a number" + 100;
-
 "hello" + true;
+100 + "a number";
+100 + 100 + 100 + "hello";
+"hello" + 100 + 100 + 100;
 
-console.log("hello" + true);
-
-console.log(100 + "a number");
-
-
-console.log(100 + 100 + 100 + "hello");
-
-console.log("hello" + 100 + 100 + 100);
 
 
 function sentenceBuilder(person, place, action, item) {
-    var firstPart = " went to  ";
-    var secondPart = " , and did ";
+    var firstPart = " went to ";
+    var secondPart = ", and ";
     var thirdPart = " but there was a problem, ";
-    var fourthPart = " did not work. ";
+    var fourthPart = " did not work.";
 
-    var completeSentence = place + firstPart + place + action +
-        secondPart + thirdPart + item + fourthPart;
+    var completeSentence = person + firstPart + place + secondPart + action + thirdPart + item + fourthPart;
+
     console.log(completeSentence);
+
 }
 
-sentenceBuilder("xxx", "sfo", "owner", "food");
-sentenceBuilder("yyy", "Donuts", "eating", "concord");
+sentenceBuilder("Osiah", "Happy Donut", "fought with the store owner", "the fists");
 
+sentenceBuilder("David", "Six Flags", "took a ride on the Ferris Wheel", "the hydraulics")
 
-
-function getNumber() {
+function  getNumber() {
     var theSpecialNumber = 42;
-    return theSpecialNumber;
 
+    return theSpecialNumber;
 }
 
-console.log(getNumber());
+
+console.log( getNumber() );
+
 
 var newNumber = getNumber() + 100;
 
 console.log(newNumber);
 
-
-
 var results = getNumber() / 50;
 
-console.log(results);
+console.log( results );
+
 
 function getName() {
+
     var firstName = "Eduardo";
 
-    return firstName;
 
+    return firstName;
 }
 
-console.log(getName() + " is a person.");
+
+
+console.log( getName() + " is a person.");
+
+
+
+
+
+
+
+
+
+
+
+

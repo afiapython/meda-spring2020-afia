@@ -12,10 +12,9 @@ for (var i = 0; i < employeeSalaries.length; i++) {
 
     if (salary < 50000) {
         console.log("old salary: " + salary);
-        salary = salary + (salary * .05);
-        console.log("New salary: " + salary);
 
-        employeeSalaries[i] = salary;
+
+        employeeSalaries[i] = salaryBonus(salary);
     } else {
         console.log("old salary: " + salary);
         salary = salary + (salary * .025);
